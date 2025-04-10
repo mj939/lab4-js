@@ -4,13 +4,25 @@ Group Members:
 - Marion Mwape
 - Moses Bwalya
 
- Page Descriptions:
-- index.html: This is the homepage of the website. It includes a welcome message, an introduction to the company, and the mission statement.
-- services.html: This page describes the services provided by the company.
-- contact.html: This page provides contact information and a form for visitors to reach out.
+ - Lab4-js: Interactive Website
 
- Summary of Features Used:
-- Selectors: Used for targeting specific elements in the HTML for styling purposes.
-- Flexbox/Grid: Utilized Flexbox for the layout of the homepage and services page, and Grid for the contact page.
-- Media Queries: Applied media queries to make the website responsive on different screen sizes.
-- Animation: Used CSS animations to add effects to page elements like buttons and images.
+
+
+ Features Implemented 
+-  Theme toggle (light/dark mode)
+-  Form validation (on contact page)
+-  FAQ toggle functionality
+-  Fetch API integration (loads user/team members)
+
+Pages Included
+- index.html — Main homepage with hero section, FAQ, API fetch, and theme toggle
+- contact.html — Contact form with validation and theme support
+
+Scripts
+- script.js— Handles theme switching, FAQ toggle, form validation, and API fetch
+
+ How to Use
+- Click "Switch Theme" to toggle between light and dark modes
+- Fill out the contact form and try submitting without required fields to see validation
+- Click on FAQ questions to expand/collapse answers
+- Press “Load Users” to fetch dummy team members via API
